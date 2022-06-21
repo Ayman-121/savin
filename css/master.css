@@ -1,0 +1,24 @@
+.bg-myColor{
+  background-color: #125f59 !important;
+}
+.header ul li:hover{
+  color: #ffe100 !important;
+  transition: 0.4s;
+}
+.header ul li:hover::before{
+  content: "";
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  height: 2px;
+  background-color: #ffe100;
+}
+.landing h1{
+  font-size: 65px;
+  max-width: 450px;
+  text-align: left;
+}
+.landing img{
+  width: 35px;
+}
